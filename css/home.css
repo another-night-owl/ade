@@ -1,0 +1,392 @@
+a {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 50px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+/*animated*/
+#section1 .animatedbounceInDown {
+  animation-duration: 3s;
+  animation-delay: 5s;
+}
+#section1 .animated {
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
+
+/* Base structure */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: # color: #9DA4AD;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  position: relative;
+}
+
+#section1 {
+  background-image: url("/opt/lampp/htdocs/konakito/img/b6.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Merriweather', serif;
+}
+
+#section1 img {
+  width: 40%;
+  height: 70%;
+}
+
+#section1 h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+ font-family: 'Merriweather', serif;
+}
+
+#section1 .btn-primary {
+  color: white;
+}
+
+#section1 .btn {
+  background-color: #727272;
+  color: white;
+  font-size: 20px;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.5;
+}
+
+#section1 .btn:hover {
+  opacity: 1;
+}
+
+
+#section2 {
+  background-image: linear-gradient(to bottom, #213636, #7F776C);
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  color: #fff;
+  background-color: rgba(184 125 75);
+}
+
+#section2 p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15%;
+  font-family: 'Merriweather', serif;
+}
+
+.circle img {
+  border-radius: 30%;
+  margin: inherit;
+  padding-top: 20px;
+}
+
+.circle p {
+  text-align: center;
+}
+
+.parallax3 {
+  background-image: url("/opt/lampp/htdocs/konakito/img/p1.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax3 h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+  font-family: 'Merriweather', serif;
+}
+
+.parallax3 p {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  padding-bottom: 20%;
+  font-family: 'Merriweather', serif;
+}
+
+#section3 {
+  background-image: linear-gradient(to bottom,  #2F221D, #6A6D6A);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+
+.tales {
+  margin: 10px;
+  width: 100%;
+  border-radius: 10%;
+  padding: 5% 30% 1% 30%;
+}
+
+#section3 p {
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+
+#section3 li {
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+/*-------------------------section4-------------------*/
+.parallax4 {
+  background-image: url("/opt/lampp/htdocs/konakito/img/s4.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax4 h1 {
+  padding-top: 20%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.parallax4 p {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+#section4 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  height: 100%;
+  color: #9DA4AD;
+  background-image: linear-gradient(to bottom, #2F1E16, #8D7666);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#section4 h2 {
+  font-size: 40px;
+  color: white;
+  margin-top: 10%;
+  padding-top: 1px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+#section4 h1 {
+  font-size: 25px;
+  color: white;
+  padding-top: 1px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+#section4 form p {
+  font-size: 15px;
+  text-align: left;
+  padding-top: 1px;
+}
+
+#section4 p {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+#section4 .btn {
+  background-color: #45BF3F;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+#section4 .btn:hover {
+  opacity: 0.6;
+}
+
+#section4 .container {
+  font-size: 50px;
+  position: absolute;
+  margin-top: 100px;
+  padding: 15px;
+  background-color: #9DA4AD;
+  border-radius: 10px;
+}
+
+/*---------------------------section5-----------------------*/
+#section5 {
+  padding-top: 5%;
+  height: 100%;
+  color: #fff;
+  background-image: linear-gradient(to top, #211910, #8E7257);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#section5 h3 {
+  border-bottom: 5px solid #727272;
+  border-top: 5px solid #727272;
+  color: #000;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  padding: .625rem 0;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+
+#section5 p {
+  color: #000;
+  font-size: 0, 7rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+#section5 a {
+  padding: 5px;
+  list-style-type: none;
+  margin: 0px;
+  display: inline;
+}
+
+.parallax5 {
+  background-image: url("/opt/lampp/htdocs/konakito/img/b5.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax5 h1 {
+  padding-top: 20%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Merriweather', serif;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%;
+  /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*
+ * navbar
+ */
+.nav-masthead .nav-link {
+  font-weight: bold;
+  position: sticky;
+  font-size: 20px;
+  margin-top: 0;
+  padding: 0;
+  color: white;
+  background-color: transparent;
+  display: block;
+  transition: top 0.5s;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 70px;
+  margin-top: 100px;
+  max-width: 300px;
+  padding: 15px;
+  background-color: #9DA4AD;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.container, p {
+  font-size: 15px;
+}
+
+h1 {
+  padding-top: 10px;
+  color: black;
+}
+
+p {
+  padding-top: 5px;
+  text-align: left;
+  color: black;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=tel], input[type=datetime-local], input[type="comment"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: 1px;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+form {
+  padding-bottom: 20px;
+}
+
+#myCarousel {
+  align: center;
+  width: 90%;
+  height: 80%;
+}

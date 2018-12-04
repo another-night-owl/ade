@@ -1,15 +1,18 @@
 //animate
+
   //navbarhide
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-      document.getElementByClass("container-fluid").style.top = "0";
+      document.getElementById("nav").style.top = "0";
     } else {
-      document.getElementByClass("container-fluid").style.top = "-50px";
+      document.getElementById("nav").style.top = "-50px";
     }
     prevScrollpos = currentScrollPos;
   }
+
+
   //scroll//
   $(document).ready(function() {
     // Add scrollspy to <body>
